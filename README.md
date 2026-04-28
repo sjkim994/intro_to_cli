@@ -19,14 +19,14 @@ How you access the terminal differs depending on your operating system.
 ### something
 
 Commands:
-- cd
 - ls
+- cd
 - pwd
 - mkdir
 - touch
 - rmdir
 - rm
-- nano
 - cat
+- nano
 - echo
 - cp
