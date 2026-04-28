@@ -34,7 +34,7 @@ This simple command allows us to determine where we are, which can help us when 
 
 ### `ls`
 
-`ls` stands for list and is a command that lists the contents of your current folder. Using this command in the current home folder should look something like this:
+`ls` stands for *list* and is a command that lists the contents of your current folder. Using this command in the current home folder should look something like this:
 
 [Insert image of ls in home folder]: # 
 
@@ -44,13 +44,15 @@ This tells us what files and folders exist in our home folder.
 
 ### `cd`
 
-We can then move into one of those folders using the `cd` command. `cd` stands for *change directory* and directory is just another word for folder. Thus, the `cd` command changes our location by moving us into another directory/folder.
+We can then move into one of those folders using the `cd` command. `cd` stands for *change directory* and directory is just another word for folder. Thus, the `cd` command changes our location by moving us into another directory/folder. It takes a single argument as input, which is the name of the directory that you would like to move to. 
 
 For example, we can move into the `Downloads` folder using the following command:
 
 ```
 cd Downloads
 ```
+
+> Note: You can only `cd` into directories that exist in your current working directory. To figure out what those directories are, use the `ls` command!
 
 Then, by calling `ls` again, you should see that your `Downloads` folder has different contents to your `~` directory.
 
@@ -59,7 +61,47 @@ Then, by calling `ls` again, you should see that your `Downloads` folder has dif
 
 The `ls` and `cd` commands are your bread-and-butter. They allow you to traverse the contents of your computer by first listing the contents of your current folder using `ls` and then moving into one of those sub-directories using `cd`. Furthermore, if you ever get lost or need to know the exact location of your current working directory, then you can use `pwd` to print that information out. These three commands give you the basic ability to move through all the files on your computer. We encourage you to practice using these commands and exploring many of the folders currently living on your computer!
 
-##
+## Creating Files and Folders
+
+Since we now know how to move through our file system, let's go over ways to create new files and folders.
+
+### `mkdir`
+
+`mkdir` stands for *make directory* and does exactly what it's name suggests: it makes a directory within your current working directory.
+
+Let's use this command to make a folder where we can practice using the terminal!
+
+First, if you are not in your home folder, let's move there using this command:
+
+```
+cd ~
+```
+
+> Note: As mentioned before, normally, you can only `cd` into folders that exist in your current working directory. However, the home directory `~` is an exception to this, as you can move into this folder no matter where you are on your computer.
+
+Now, let's use `mkdir` to create a folder titled `intro_to_cli`! Like `cd`, `mkdir` takes in one argument, which is the name of the directory you are making. Thus, we can create this folder using this command:
+
+```
+mkdir intro_to_cli
+```
+
+To check that this folder now exists, use the `ls` command. You should see this folder show up in the output list.
+
+Finally, `cd` into this directory.
+
+### `touch`
+
+`touch` is a command that allows us to create files. Like `mkdir`, it takes in one argument, which is the name of the file you are making.
+
+Let's make a file titled `hello_world.txt`! We can do this using the following command:
+
+```
+touch hello_world.txt
+```
+
+We will revisit this file later in the tutorial, but for now, call `ls` to verify that this file now exists in our working directory.
+
+## Removing Files and Folders
 
 ### something
 
