@@ -1,6 +1,11 @@
 # Activities!!!
 Here are some activities to help your learning.
 
+### Here's the tutorial video again for your convenience
+
+[![Watch the video](https://img.youtube.com/vi/0GL0FfJYOYs/default.jpg)](https://youtu.be/0GL0FfJYOYs)
+
+
 ## Challenge 00
 What is your present working directory? Find out by doing the command `pwd`.
 

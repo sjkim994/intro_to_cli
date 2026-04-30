@@ -175,7 +175,7 @@ cat hello_world.txt
 
 You should see the following:
 
-[Insert image of our output of hello_world.txt]: # 
+![Image of output of ](/assets/hello_world.png "output of hello_world.txt")
 
 This command just printed the contents of our file! Thus, we can use `cat` to both write to new files and read the contents of existing files!
 
