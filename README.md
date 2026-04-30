@@ -14,6 +14,10 @@ As we mentioned before, the terminal, also known as the command-line interface (
 
 How you access the terminal differs depending on your operating system. On `macOS`, you can access the terminal via the **Terminal** app installed on your device. On `Windows`, you can access the terminal using a couple different applications, mainly **Command Prompt** or **PowerShell**. Finally, on `Linux`, there are many different applications you can use to access the terminal, such as **Konsole, Alacritty, Kitty, GNOME Terminal,** and more. However, chances are that if you are on Linux, it is likely that you already know how to access the terminal using your favorite terminal app, since many Linux distributions depend on the use of the terminal more than macOS and Windows.
 
+## Tutorial Video
+
+[![Watch the video](https://img.youtube.com/vi/0GL0FfJYOYs/default.jpg)](https://youtu.be/0GL0FfJYOYs)
+
 ## Navigating Files and Folders Using the Terminal
 
 Let's begin learning how to use the terminal! Whenever you open the terminal app, you start a new terminal session. Here, you will automatically start off in your home folder. Near the far right of your terminal, you should look something like this:
